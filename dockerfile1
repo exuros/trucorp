@@ -1,0 +1,4 @@
+FROM kwindsor/php7-apache-ubuntu
+COPY index.php /var/www/html/
+RUN chown -R www-data:www-data /var/www/
+RUN chmod -R 774 /var/www/
