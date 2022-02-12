@@ -52,5 +52,5 @@
 
     <?php
     }
-    echo nl2br("\nJumlah user dalam database adalah = ".$rowcount);
+    echo nl2br("\nJumlah user dalam database adalah : ".$rowcount);
 ?>
